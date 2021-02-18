@@ -338,6 +338,7 @@ static Key key[] = {
 	{ XK_KP_9,          XK_ANY_MOD,     "\033Oy",       +2,    0},
 	{ XK_Up,            ShiftMask,      "\033[1;2A",     0,    0},
 	{ XK_Up,            Mod1Mask,       "\033[1;3A",     0,    0},
+	{ XK_Page_Up,       XK_ANY_MOD,     "\033[1;3A",     0,    0}, //-- added this
 	{ XK_Up,         ShiftMask|Mod1Mask,"\033[1;4A",     0,    0},
 	{ XK_Up,            ControlMask,    "\033[1;5A",     0,    0},
 	{ XK_Up,      ShiftMask|ControlMask,"\033[1;6A",     0,    0},
@@ -347,6 +348,7 @@ static Key key[] = {
 	{ XK_Up,            XK_ANY_MOD,     "\033OA",        0,   +1},
 	{ XK_Down,          ShiftMask,      "\033[1;2B",     0,    0},
 	{ XK_Down,          Mod1Mask,       "\033[1;3B",     0,    0},
+	{ XK_Page_Down,     XK_ANY_MOD,     "\033[1;3B",     0,    0}, //-- added this
 	{ XK_Down,       ShiftMask|Mod1Mask,"\033[1;4B",     0,    0},
 	{ XK_Down,          ControlMask,    "\033[1;5B",     0,    0},
 	{ XK_Down,    ShiftMask|ControlMask,"\033[1;6B",     0,    0},
